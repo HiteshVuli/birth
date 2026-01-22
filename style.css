@@ -698,6 +698,12 @@ a.icon.msg-icon {
   background: #d2d2d2;
 }
 
+/* Enable scrolling INSIDE the letter */
+.pink-letter {
+  max-height: 70vh;        /* keeps it within screen */
+  overflow-y: auto;        /* ✅ allows vertical scroll */
+}
+
 
 
 
